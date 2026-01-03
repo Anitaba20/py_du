@@ -1,1 +1,1 @@
-Domáce úlohy z Pythonu
+Domáce úlohy z Pythonu.

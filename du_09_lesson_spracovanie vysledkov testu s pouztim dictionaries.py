@@ -75,3 +75,4 @@ while True:
     elif menu == "6":
         print("Koniec")
         break
+

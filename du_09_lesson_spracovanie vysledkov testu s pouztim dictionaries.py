@@ -76,3 +76,5 @@ while True:
         print("Koniec")
         break
 
+
+

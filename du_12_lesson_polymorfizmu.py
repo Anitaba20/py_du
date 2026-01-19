@@ -21,3 +21,4 @@ tvary = [Obdlznik(), Kruh(), Pravouhly_trojuholnik()]
 for i in range(3):
     tvary[i].obsah()
 
+

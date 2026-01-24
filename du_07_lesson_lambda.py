@@ -14,3 +14,4 @@ for cislo in cisla2:
 cisla3 = [23,42,10,5,11]
 for cislo in cisla3:
     print((lambda x:x-2)(cislo))
+

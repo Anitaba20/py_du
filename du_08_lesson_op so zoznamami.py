@@ -24,3 +24,4 @@ def hladaj(zoznam_cisel, hladane_cislo):
 
 print(sortuj(zoznamy_spolu, True))
 print(hladaj(zoznamy_spolu, 1))
+

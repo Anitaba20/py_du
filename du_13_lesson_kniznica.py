@@ -59,11 +59,9 @@ kniznica_ = Kniznica()
 kniha1 = Kniha("A Trail Through Time", "Jodi Taylor", "9781472264428", True, 2019)
 kniha2 = Kniha("The Hero of Ages", "Brandon Sanderson", "9780575089945", True, 2010)
 
-# Pridaj knihu
 kniznica_.pridaj_knihu(kniha1)
 kniznica_.pridaj_knihu(kniha2)
 
-# Dostupné knihy:
 print("Dostupné knihy:")
 kniznica_.zobraz_dostupne_knihy()
 

@@ -104,6 +104,5 @@ while True:
         print("Koniec programu.")
         break
 
-    else:
-        print("Neplatná voľba, skús znova.")
+
 

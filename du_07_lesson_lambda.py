@@ -16,3 +16,5 @@ for cislo in cisla3:
     print((lambda x:x-2)(cislo))
 
 
+
+

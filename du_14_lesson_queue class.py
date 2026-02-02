@@ -87,7 +87,7 @@ class Queue:
         if self.isEmpty():
             print("Queue is empty")
         else:
-            removed = self.elements.pop()
+            removed = self.elements.pop(0)
             print(removed)
 
     def show(self):

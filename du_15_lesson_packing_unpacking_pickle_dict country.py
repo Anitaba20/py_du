@@ -56,9 +56,10 @@ class Country:
 
 countries = Country()
 
-print(countries.add_country("Czech Republic", "Prague"))
+print(countries.add_country("Poland", "Warsaw"))
 print(countries.delete_country("Hungary"))
 print(countries.find_country("Austria"))
+print(countries.edit_country("Poland", "Warsaw"))
 print(countries.save_data("countries.pkl"))
 print(countries.load_data("countries.pkl"))
 print(countries.data)

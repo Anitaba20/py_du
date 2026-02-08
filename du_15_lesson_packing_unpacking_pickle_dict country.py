@@ -47,12 +47,10 @@ class Country:
     def save_data(self, file):
         with open(file, "wb") as f:
             pickle.dump(self.data, f)
-        return "Data saved."
 
     def load_data(self, file):
         with open(file, "rb") as f:
             self.data = pickle.load(f)
-        return "Data loaded."
 
 countries = Country()
 
@@ -60,6 +58,11 @@ print(countries.add_country("Poland", "Warsaw"))
 print(countries.delete_country("Hungary"))
 print(countries.find_country("Austria"))
 print(countries.edit_country("Poland", "Warsaw"))
-print(countries.save_data("countries.pkl"))
-print(countries.load_data("countries.pkl"))
+
+countries.save_data("countries.pkl")
+print("Data saved.")
+
+countries.load_data("countries.pkl")
+print("Data loaded.")
+
 print(countries.data)

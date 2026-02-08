@@ -66,3 +66,6 @@ countries.load_data("countries.pkl")
 print("Data loaded.")
 
 print(countries.data)
+
+
+

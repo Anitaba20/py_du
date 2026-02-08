@@ -44,12 +44,12 @@ class Country:
             return f"{country} updated."
         return "Country not found."
 
-    def save_data(self, country_data):
-        with open(country_data, "wb") as country_file:
+    def save_data(self, filename):
+        with open(filename, "wb") as country_file:
             pickle.dump(self.data, country_file)
 
-    def load_data(self, country_data):
-        with open(country_data, "rb") as country_file:
+    def load_data(self, filename):
+        with open(filename, "rb") as country_file:
             self.data = pickle.load(country_file)
 
 countries = Country()

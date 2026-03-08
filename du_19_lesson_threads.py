@@ -4,11 +4,11 @@ numbers = [1, 2, 5, 4, 3, 0]
 
 def find_largest():
     largest = max(numbers)
-    print("Najväčšie číslo je:", largest)
+    print("Najväčšie číslo:", largest)
 
 def find_smallest():
     smallest = min(numbers)
-    print("Najmenšie číslo je:", smallest)
+    print("Najmenšie číslo:", smallest)
 
 thread1 = threading.Thread(target=find_largest)
 thread2 = threading.Thread(target=find_smallest)

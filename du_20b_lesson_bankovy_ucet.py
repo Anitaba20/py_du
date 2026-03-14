@@ -1,6 +1,8 @@
 # du z 10.03.2026_Vytvorte program v Pythone, ktorý simuluje bankový účet a
 # viacerých klientov pristupujúcich k nemu súčasne pomocou threadov.
 
+# verzia_2: Následne program opravte pomocou threading.Lock, aby bol výsledok vždy správny.
+
 import threading
 import time
 import random

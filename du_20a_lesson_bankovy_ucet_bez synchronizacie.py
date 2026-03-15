@@ -32,4 +32,4 @@ for i in range(10):
 for thread in threads:
     thread.join()
 
-print("Konečný zostatok:", account.balance)
+print("Final balance:", account.balance)

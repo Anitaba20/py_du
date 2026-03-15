@@ -20,7 +20,6 @@ class BankAccount:
                 time.sleep(0.0001)
                 self.balance = new_balance
 
-
 account = BankAccount(5000)
 
 threads = []
@@ -34,4 +33,4 @@ for i in range(10):
 for thread in threads:
     thread.join()
 
-print("Konečný zostatok:", account.balance)
+print("Final balance:", account.balance)
